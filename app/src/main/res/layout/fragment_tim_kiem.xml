@@ -7,15 +7,15 @@
     android:background="@color/white">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/fmTimKiem_appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3e3ee2"
-        android:id="@+id/fmTimKiem_appBarLayout">
+        android:background="#f7b733">
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/fmTimKiem_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:id="@+id/fmTimKiem_toolbar"/>
+            android:layout_height="?attr/actionBarSize" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
